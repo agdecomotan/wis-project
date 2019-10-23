@@ -11,7 +11,7 @@ import {Product} from '../model';
 })
 
 export class PhotosComponent {
-    apiURL = "http://localhost:8002/wis-api/api/uploads/"
+    apiURL = "https://wis-project-api.herokuapp.com/uploads/";
 
     eventPhotos : Observable<Product>;
     foodPhotos : Observable<Product>;
