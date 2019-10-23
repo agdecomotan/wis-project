@@ -11,7 +11,7 @@ import {DbOperationsService} from '../db-operations.service';
 })
 
 export class DesignComponent {
-    apiURL = "https://callousphotography.000webhostapp.com/api/uploads/"
+    apiURL = "https://wis-project-api.herokuapp.com/uploads/";
 
     invitePhotos : Observable<Product>;
     graphicsPhotos : Observable<Product>;

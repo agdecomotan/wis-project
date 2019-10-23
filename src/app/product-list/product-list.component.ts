@@ -14,7 +14,7 @@ export class ProductListComponent implements OnInit {
     @ViewChild('actionsTemplate') actionsTemplate: TemplateRef<any>;
     @ViewChild('alertTemplate') alertTemplate: TemplateRef<any>;
 
-    apiURL = "https://callousphotography.000webhostapp.com/api/uploads/";
+    apiURL = "https://wis-project-api.herokuapp.com/uploads/";
 
     rows : Observable<Product>;
     columns = [];
